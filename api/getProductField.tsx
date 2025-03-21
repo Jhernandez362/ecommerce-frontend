@@ -1,4 +1,5 @@
-import { ResultFiltersType } from "@/.next/types/filters";
+
+import { ResultFiltersType } from "@/.next/types/result-filters-type";
 import { useEffect, useState } from "react";
 
 export function useGetProductField(){
