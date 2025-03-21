@@ -3,7 +3,7 @@
 import { ResponseType } from "@/.next/types/response";
 import { useGetProductsFromCategory } from "@/api/getProductFromCategory";
 import { Separator } from "@/components/ui/separator";
-import { useParams, useRouter } from "next/navigation";
+import { useParams } from "next/navigation";
 import FiltersControlsCategory from "../components/filters-controls-category";
 import SkeletonSchema from "@/components/skeleton-schema";
 import ProductCard from "../components/product-card";
@@ -14,7 +14,6 @@ export default function Page(){
     const params = useParams()
     const { categorySlug } = params;
     const { result, loading }: ResponseType = useGetProductsFromCategory(String(categorySlug));
-    const router = useRouter()
 
     const [filterOrigin, setFilterOrigin] = useState("")
 

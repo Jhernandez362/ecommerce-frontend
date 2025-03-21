@@ -1,5 +1,3 @@
-import { ProductType } from "@/.next/types/product";
-
 interface ProductTasteOriginProps {
     taste: string
     origin: string

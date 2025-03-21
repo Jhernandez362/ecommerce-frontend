@@ -5,7 +5,7 @@ import { useGetFeaturedProducts } from "@/api/useGetFeaturedProducts";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel";
 import SkeletonSchema from "./skeleton-schema";
 import { ProductType } from "@/.next/types/product";
-import { Expand, Key, ShoppingCart } from "lucide-react";
+import { Expand, ShoppingCart } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 import { useRouter } from "next/navigation";
 import IconButton from "./icon-button";
