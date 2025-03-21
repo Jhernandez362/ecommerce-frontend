@@ -1,6 +1,6 @@
 import {create} from "zustand"
 import { persist, createJSONStorage } from "zustand/middleware"
-import { ProductType } from "@/.next/types/product"
+import { ProductType } from "@/types/product"
 import { Toaster } from "@/components/ui/sonner"
 import { toast } from "sonner"
 

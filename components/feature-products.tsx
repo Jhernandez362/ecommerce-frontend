@@ -1,10 +1,10 @@
 "use client";
 
-import { ResponseType } from "@/.next/types/response";
+import { ResponseType } from "@/types/response";
 import { useGetFeaturedProducts } from "@/api/useGetFeaturedProducts";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel";
 import SkeletonSchema from "./skeleton-schema";
-import { ProductType } from "@/.next/types/product";
+import { ProductType } from "@/types/product";
 import { Expand, ShoppingCart } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 import { useRouter } from "next/navigation";

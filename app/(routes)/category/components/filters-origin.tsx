@@ -1,4 +1,4 @@
-import { FilterTypes } from "@/.next/types/filters";
+import { FilterTypes } from "@/types/filters";
 import { useGetProductField } from "@/api/getProductField";
 import { Label } from "@/components/ui/label";
 import { RadioGroup } from "@/components/ui/radio-group";

@@ -1,4 +1,4 @@
-import { ProductType } from "@/.next/types/product";
+import { ProductType } from "@/types/product";
 import IconButton from "@/components/icon-button";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import { FormatPrice } from "@/lib/fromat-price";

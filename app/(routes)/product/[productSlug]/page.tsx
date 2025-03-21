@@ -1,6 +1,6 @@
 "use client";
 
-import { ResponseType } from "@/.next/types/response";
+import { ResponseType } from "@/types/response";
 import { useGetProductBySlug } from "@/api/getProductBySlug";
 import { useParams } from "next/navigation";
 import SkeletonProduct from "./components/skeleton-product";

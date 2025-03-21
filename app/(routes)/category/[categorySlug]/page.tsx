@@ -1,13 +1,13 @@
 "use client";
 
-import { ResponseType } from "@/.next/types/response";
+import { ResponseType } from "@/types/response";
 import { useGetProductsFromCategory } from "@/api/getProductFromCategory";
 import { Separator } from "@/components/ui/separator";
 import { useParams } from "next/navigation";
 import FiltersControlsCategory from "../components/filters-controls-category";
 import SkeletonSchema from "@/components/skeleton-schema";
 import ProductCard from "../components/product-card";
-import { ProductType } from "@/.next/types/product";
+import { ProductType } from "@/types/product";
 import { useState } from "react";
 
 export default function Page(){

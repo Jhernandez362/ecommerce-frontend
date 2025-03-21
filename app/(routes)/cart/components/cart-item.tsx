@@ -1,4 +1,4 @@
-import { ProductType } from "@/.next/types/product";
+import { ProductType } from "@/types/product";
 import ProductImgMiniature from "@/components/shared/product-img-miniature";
 import ProductTasteOrigin from "@/components/shared/product-taste-origin";
 import { useCart } from "@/hooks/use-cart";

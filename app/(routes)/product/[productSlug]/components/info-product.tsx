@@ -1,6 +1,6 @@
 "use client";
 
-import { ProductType } from "@/.next/types/product";
+import { ProductType } from "@/types/product";
 import ProductTasteOrigin from "@/components/shared/product-taste-origin";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
